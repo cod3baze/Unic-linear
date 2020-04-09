@@ -2,7 +2,7 @@
 
 > se quer saber oque um comando faz so digitar (`man nome_do_comando`)
 
-[programar-scripts-bash]('https://devhints.io/bash')!
+[programar-scripts-bash]('https://devhints.io/bash')
 
 ---
 
@@ -52,7 +52,7 @@ Abaixo os Snippets para iniciante
 
 ### Rel
 
-**link simbólico**: é um atalho para algum caminho | arquivo...
+**link simbólico**: é um atalho para algum caminho | arquivo \n
 **usr**: unix system resources
 **dir**: diretório
 **|**: pipe
