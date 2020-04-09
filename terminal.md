@@ -21,6 +21,6 @@ Abaixo os Snippets para iniciante
 
 ### hashs | anotações
 
-| `$` : denota uma variável de abiente | - EX: `cd $HOME` muda para Variável HOME. |
+\| `$` : denota uma variável de abiente | - EX: `cd $HOME` muda para Variável HOME. |
 
 | `~` : referece a var HOME | - EX: `cd ~/Docs` muda para o diretório Docs na variável HOME |
