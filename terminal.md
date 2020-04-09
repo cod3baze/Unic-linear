@@ -17,16 +17,10 @@ Abaixo os Snippets para iniciante
 |         cd "diretorio" | muda de diretório                             |
 |                     rm | apaga arquivo, diretório                      |
 |                    pwd | exibe o diretório atual                       |
-|         cd "diretorio" | muda de diretório                             |
-|         cd "diretorio" | muda de diretório                             |
-|         cd "diretorio" | muda de diretório                             |
-|         cd "diretorio" | muda de diretório                             |
-|         cd "diretorio" | muda de diretório                             |
-|         cd "diretorio" | muda de diretório                             |
-|         cd "diretorio" | muda de diretório                             |
+|                        |                                               |
 
-## hashs
+### hashs | anotações
 
-\$NOMDE : denota uma variável de abiente
+| `$` : denota uma variável de abiente | - EX: `cd $HOME` muda para Variável HOME. |
 
-- EX: `cd $HOME` muda para Variável HOME.
+| `~` : referece a var HOME | - EX: `cd ~/Docs` muda para o diretório Docs na variável HOME |
