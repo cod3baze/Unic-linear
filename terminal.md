@@ -61,7 +61,7 @@ Abaixo os Snippets para iniciante
 ### packages instalados
 
 - FOR DEVELOPER
-  - `silversearch-ag`: mesmo que o comando grep. expressão regular
+  - `silversearch-ag`: mesmo que o comando grep. (expressão regular)
   - `build-essencial`
   - `default-jdk`
   - `libssl-dev`
