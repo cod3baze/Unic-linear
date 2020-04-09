@@ -61,20 +61,20 @@ Abaixo os Snippets para iniciante
 ### packages instalados
 
 - FOR DEVELOPER
-  [x] **silversearch-ag**: mesmo que o comando grep. expressão regular
-  [x] **build-essencial**
-  [x] **default-jdk**
-  [x] **libssl-dev**
-  [x] **exuberant-ctags**
-  [x] **ncurses-term**
-  [x] **ack-grep**
-  [x] **fontconfig**
-  [x] **imagemagick**
-  [x] **libmagickwand-dev**
-  [x] **software-properties-common**
-  [x] **git**
-  [x] **vim-gtk3**
-  [x] **curl**
+  [x] `silversearch-ag`: mesmo que o comando grep. expressão regular
+  [x] `build-essencial`
+  [x] `default-jdk`
+  [x] `libssl-dev`
+  [x] `exuberant-ctags`
+  [x] `ncurses-term`
+  [x] `ack-grep`
+  [x] `fontconfig`
+  [x] `imagemagick`
+  [x] `libmagickwand-dev`
+  [x] `software-properties-common`
+  [x] `git`
+  [x] `vim-gtk3`
+  [x] `curl`
 
 ---
 
