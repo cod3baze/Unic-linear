@@ -2,7 +2,7 @@
 
 > se quer saber oque um comando faz so digitar (`man nome_do_comando`)
 
-[programar-scripts-bash]('https://devhints.io/bash')
+[programar para bash](https://devhints.io/bash)
 
 ---
 
