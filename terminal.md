@@ -52,15 +52,29 @@ Abaixo os Snippets para iniciante
 
 ### Rel
 
-**link simbólico**: é um atalho para algum caminho | arquivo \n
-**usr**: unix system resources
-**dir**: diretório
-**|**: pipe
-**grep**: globally search a regular expression and print
+[x] **link simbólico**: é um atalho para algum caminho | arquivo
+[x] **usr**: unix system resources
+[x] **dir**: diretório
+[x] **|**: pipe
+[x] **grep**: globally search a regular expression and print
 
 ### packages instalados
 
-**silversearch-ag**: mesmo que o comando grep. expressão regular
+- FOR DEVELOPER
+  [x] **silversearch-ag**: mesmo que o comando grep. expressão regular
+  [x] **build-essencial**
+  [x] **default-jdk**
+  [x] **libssl-dev**
+  [x] **exuberant-ctags**
+  [x] **ncurses-term**
+  [x] **ack-grep**
+  [x] **fontconfig**
+  [x] **imagemagick**
+  [x] **libmagickwand-dev**
+  [x] **software-properties-common**
+  [x] **git**
+  [x] **vim-gtk3**
+  [x] **curl**
 
 ---
 
