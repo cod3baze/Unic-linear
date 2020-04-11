@@ -10,7 +10,7 @@
 - [x] Aplicações, incluindo web apps e APIs.
 - [x] Analista de dados: analise de problemas de segurança e apresentação de soluções
 
-[Ter conhecimento em..](https://github.com/eliasallex/ferramentas_avancadas.md)
+[Ter conhecimento em..](https://github.com/eliasallex/Unic-linear/blob/master/ferramentas_avancadas.md)
 
 ## Dicas
 
