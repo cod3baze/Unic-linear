@@ -28,14 +28,31 @@
 
 - um servidor é um computador sedignado para processar requisições e entregar dados para outros computadores na internet ou em rede local.
 
+## MAC ADDRESS VS IP ADDRESS
+
+| `MAC`              | `IP`            |
+| ------------------ | --------------- |
+| Endereço físico    | Endereço lógico |
+| endereço de 48 Bit | 32 ou 128 Bit   |
+| cammada OSI 2      | camada OSI 3    |
+| Fixo               | Pode mudar      |
+| por fabricante     | por ISP         |
+
 ---
 
 ## Ferramentas que automatizam um teste
 
+- Exploit DB
 - Burp suite
 - Zed attack proxy
 - Aircrack-ng
 - SQLmap
+- Nmap
+- Wireshark
+- Metasploit
+- THC Hydra
+- Jhon the Ripper
+- Meterpreter
 
 ## Ferramentas
 
@@ -51,8 +68,10 @@
 
 - [x] `Hashcat`: quebra passwords.
 
+- [x] `Nikto`: é um scaner de servidor web que performatiza compreensões de testes contra serves web de multiplos items.
+
 ### MITMproxy
 
 - [x] **interativo**: modifica requisições e respostas
-- [x] extensível: invoca módulos python para conteudo especializado
-- [x] solicitações de requisições e/ou respostas
+- [x] **extensível**: invoca módulos python para conteudo especializado
+- [x] **solicitações** de requisições e/ou respostas
