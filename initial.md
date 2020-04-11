@@ -53,6 +53,6 @@
 
 ### MITMproxy
 
-- [x] `interativo: modifica requisições e respostas
-- [x] `extensível: invoca módulos python para conteudo especializado
+- [x] **interativo**: modifica requisições e respostas
+- [x] extensível: invoca módulos python para conteudo especializado
 - [x] solicitações de requisições e/ou respostas
