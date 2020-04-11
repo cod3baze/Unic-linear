@@ -10,6 +10,8 @@
 - [x] Aplicações, incluindo web apps e APIs.
 - [x] Analista de dados: analise de problemas de segurança e apresentação de soluções
 
+[Ter conhecimento em..](https://github.com/eliasallex/ferramentas_avancadas.md)
+
 ## Dicas
 
 - leia livros e blogs
@@ -69,6 +71,8 @@
 - [x] `Hashcat`: quebra passwords.
 
 - [x] `Nikto`: é um scaner de servidor web que performatiza compreensões de testes contra serves web de multiplos items.
+
+- [x] `WIFI-pumpkin`: você pode criar um ponto de acesso na rede e monitorar qualquer alvo que acessar esse ponto.
 
 ### MITMproxy
 
