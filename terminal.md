@@ -109,3 +109,13 @@ Abaixo os Snippets para iniciante
 
 - [x] mostra a segunda coluna nos processos que terminam com bash
       `ps aux | grep bash | awk '{ print $2 }'`
+
+| Uso                               | Descrição                             |
+| --------------------------------- | ------------------------------------- |
+| `sudo apt upgrade`                | atualiza os pacotes necessários       |
+| `sudo apt dist-upgrade 'package'` | Atualiza algum pacote particularmente |
+|                                   |                                       |
+|                                   |                                       |
+|                                   |                                       |
+|                                   |                                       |
+|                                   |                                       |

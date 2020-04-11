@@ -8,5 +8,13 @@
 
 Este mecanismo atua como uma defesa de um computador ou de uma rede, controlando o acesso ao sistema por meio de regras e filtragem de dados. A vantagem de uso de firewalls em rede, é que somente um computador pode atuar coo firewall, não sendo necessário instalá-lo em cada máquina conectada.
 
-_Firewall em nível de pacotes:_
-o iptbles é uma ferramenta de edição da tabela de filtragem de pacotes, ou seja, com ele é capaz de analisar o cabeçalho e tomar decisões sobre os destinos destes pacotes.
+---
+
+### Firewall em nível de pacotes
+
+[X] Iptables:
+é uma ferramenta de edição da tabela de filtragem de pacotes, ou seja, com ele é capaz de analisar o cabeçalho e tomar decisões sobre os destinos destes pacotes.
+
+| Uso                                               | Descrição                                 |
+| ------------------------------------------------- | ----------------------------------------- |
+| `iptables -t filter -A INPUT -d endereço -j DROP` | bloqueia qualquer acesso indo ao endereço |
