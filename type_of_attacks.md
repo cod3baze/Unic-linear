@@ -31,3 +31,10 @@
 | Infecta arquivos        | pode infectar arquivos            |
 | Transmissão pelo user   | Transmissão pelo user             |
 | Deleta arquivos         | Keylogger, software de espionagem |
+
+### Ransomware
+
+> É mais comum por meio de cavalo de tróia
+
+É um tipo de software malicioso que bloqueia o acesso aos dados da vítima.
+No geral criptografa os arquivos da vítima, tornando-os inacessíveis.

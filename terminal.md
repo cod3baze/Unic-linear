@@ -161,20 +161,20 @@ permissões
 
 **orden:** `rwx`
 
--Execução: 1
--Escrita: 2
--Leitura: 4
+- Execução: 1
+- Escrita: 2
+- Leitura: 4
 
 Em bit:
 111 : `1 = ligado` / `0 = desligado`
 
 ex:
 
-| permissão | equivalte a |
-| --------- | ----------- |
-| --x       | 1           |
-| -W-       | 2           |
-| r--       | 4           |
+| permissão | equivalente à |
+| --------- | ------------- |
+| --x       | 1             |
+| -W-       | 2             |
+| r--       | 4             |
 
 OU:
 
@@ -183,4 +183,20 @@ OU:
 - [x] `rwx`
       111 = 4 + 2 + 1 = `7`
 
+| instrução             | descrição                                           |
+| --------------------- | --------------------------------------------------- |
+| `chmod 000 teste.txt` | retira toda permissão do arquivo teste.txt          |
+| `chmod 777 teste.txt` | concede todas as pemissões para o arquivo teste.txt |
+
 ---
+
+## commands
+
+| Comando                           | Descrição                                                                          |
+| --------------------------------- | ---------------------------------------------------------------------------------- |
+| `uname -r`                        | mostra a versão do kernel                                                          |
+| `lsb_release -a`                  | versão do sistema instalado                                                        |
+| `sed -i 's/velha/nova/g' arquivo` | substituir a ocorrência de uma determinada palavra em um arquivo (velha para nova) |
+| `cut [opcção] arquivo`            | "cortar" campos ou colunas selecionados de cada linha de um arquivo                |
+| `head -n15 arquivo`               | mostra as 15 primeiras linhas de um arquivo                                        |
+| `cut -d'' -f2 file | head -5n`    | no file corta o especificado e joga a saída no head                                |
