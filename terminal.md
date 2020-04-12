@@ -86,7 +86,7 @@ Abaixo os Snippets para iniciante
 | **~/dev**          | ficam os dispositivos: drive, USB, PenDrive.. |
 | `df -h`            | mostra os dispositivos que estao montados     |
 | **/root**          | dir do superusuario                           |
-| **/opt**           | onde alguns programad são instalados          |
+| **/opt**           | onde alguns programas são instalados          |
 | **/sbin**          | programas/binário do sistema                  |
 | **/bin**           | outros programas simples do Sistema           |
 | **/usr**           | fica maior parte das aplicações instaladas    |
@@ -110,12 +110,77 @@ Abaixo os Snippets para iniciante
 - [x] mostra a segunda coluna nos processos que terminam com bash
       `ps aux | grep bash | awk '{ print $2 }'`
 
+---
+
+### sudo
+
 | Uso                               | Descrição                             |
 | --------------------------------- | ------------------------------------- |
 | `sudo apt upgrade`                | atualiza os pacotes necessários       |
 | `sudo apt dist-upgrade 'package'` | Atualiza algum pacote particularmente |
+| `su 'user'`                       | muda de user. ex: `su root`           |
 |                                   |                                       |
 |                                   |                                       |
 |                                   |                                       |
 |                                   |                                       |
-|                                   |                                       |
+
+---
+
+### estrutura de listagem dos arquivos
+
+> comando `ls -l`
+
+ex:
+`Permissões` | `links` | `proprietário` | `Grupo` | `tamanho` | `data e hora` | `Nome`
+drwxr.xr-x | 2 | elias | alias | 4067 | Abril 11 22:50 | Música
+
+- Permissões
+
+proprietario | grupo | outros
+`rwx` :---------: `r-x` :--: `r-x`
+
+`r`: read (leitura)
+`w`: write (Escrita)
+`x`: Execution (Execução)
+`-`: Sem permissão
+
+1º caractere (tipo do arquivo)
+
+- `d` = dir
+- (`-`) = arquivo comum de user
+- `c` = arquivo de caractere
+- `b` = arquivo de bloco
+- `l` = link (atalho)
+
+## Alterar permissões de acesso em arquivos
+
+- Síntaxe
+  - `chmod [permissões] [arquivo]`
+
+permissões
+
+**orden:** `rwx`
+
+-Execução: 1
+-Escrita: 2
+-Leitura: 4
+
+Em bit:
+111 : `1 = ligado` / `0 = desligado`
+
+ex:
+
+| permissão | equivalte a |
+| --------- | ----------- |
+| --x       | 1           |
+| -W-       | 2           |
+| r--       | 4           |
+
+OU:
+
+- [x] `rw-`
+      110 = 4 + 2 = `6`
+- [x] `rwx`
+      111 = 4 + 2 + 1 = `7`
+
+---
