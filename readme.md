@@ -14,7 +14,7 @@ Mostra de onde o bash está executando um binário(no caso o echo): `which 'echo
 | ------------------------------------------------------- | ------------------------------------------ |
 | [initial](https://github.com/Unuc-linear)               | Os passo-a-passo para inicinates           |
 | [terminal](https://github.com/eliasallex/Unic-linear/blob/master/terminal.md)              | apresenta o inicial em terminal            |
-| [tipos de ataques](https://github.com/Unuc-linear)      | Descreve os ataques mais conhecidos        |
+| [tipos de ataques](https://github.com/eliasallex/Unic-linear/blob/master/type_of_attacks.md)      | Descreve os ataques mais conhecidos        |
 | [protecção](https://github.com/Unuc-linear)             | Descreve as camadas de proteção na rede    |
 | [ferramentas avançadas](https://github.com/Unuc-linear) | Ferramentas para apreder no nível avançado |
 
